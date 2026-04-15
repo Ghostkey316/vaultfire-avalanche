@@ -333,9 +333,16 @@ For the full Base deployment, see [vaultfire-base](https://github.com/Ghostkey31
 - **Hub:** [theloopbreaker.com](https://theloopbreaker.com)
 - **Main Protocol Repo:** [ghostkey-316-vaultfire-init](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init)
 - **Vaultfire on Base:** [vaultfire-base](https://github.com/Ghostkey316/vaultfire-base)
-- **Hermes Integration:** [hermes-vaultfire](https://github.com/Ghostkey316/hermes-vaultfire)
-- **OpenClaw Plugin:** [openclaw-vaultfire](https://github.com/Ghostkey316/openclaw-vaultfire)
-- **SDK:** [vaultfire-sdk](https://github.com/Ghostkey316/vaultfire-sdk)
+
+### Vaultfire Packages
+
+| Package | Description |
+|---------|-------------|
+| [`@vaultfire/x402`](https://github.com/Ghostkey316/vaultfire-x402) | x402 payment protocol — USDC micropayments on Base & Avalanche |
+| [`@vaultfire/xmtp`](https://github.com/Ghostkey316/vaultfire-xmtp) | Trust-gated encrypted agent messaging |
+| [`@vaultfire/vns`](https://github.com/Ghostkey316/vaultfire-vns) | On-chain `.vns` name service |
+| [`@vaultfire/sdk`](https://github.com/Ghostkey316/vaultfire-sdk) | Core SDK — belief verification & attestations |
+| [`vaultfire-contracts`](https://github.com/Ghostkey316/vaultfire-contracts) | All deployed ABIs and contract addresses |
 
 ---
 
