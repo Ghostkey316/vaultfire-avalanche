@@ -315,12 +315,12 @@ Vaultfire is deployed on both chains with full contract parity:
 
 | Contract | Base | Avalanche | Arbitrum | Polygon |
 |----------|------|-----------|----------|---------|
-| ERC8004IdentityRegistry | `0x3597...58bC` | `0x5774...B4a3` | Pre-Deployment | Pre-Deployment |
-| AIPartnershipBondsV2 | `0xC574...4b4` | `0xea6B...4b07` | Pre-Deployment | Pre-Deployment |
-| AIAccountabilityBondsV2 | `0xf92b...6Da8` | `0xaeFE...8af3` | Pre-Deployment | Pre-Deployment |
-| ERC8004ReputationRegistry | `0xdB54...a55F` | `0x11C2...bA24` | Pre-Deployment | Pre-Deployment |
-| VaultfireTeleporterBridge | `0x94F5...6Fb2` | `0x0dF0...3d31` | Pre-Deployment | Pre-Deployment |
-| DilithiumAttestor | `0xBBC0...0A4` | `0x2115...cF1f` | Pre-Deployment | Pre-Deployment |
+| ERC8004IdentityRegistry | `0x3597...58bC` | `0x5774...B4a3` | `0x6298...D5F1` | `0x6298...D5F1` |
+| AIPartnershipBondsV2 | `0xC574...4b4` | `0xea6B...4b07` | `0x0E77...Da58` | `0x0E77...Da58` |
+| AIAccountabilityBondsV2 | `0xf92b...6Da8` | `0xaeFE...8af3` | `0xfDdd...63D2` | `0xfDdd...63D2` |
+| ERC8004ReputationRegistry | `0xdB54...a55F` | `0x11C2...bA24` | `0x8ace...2218` | `0x8ace...2218` |
+| VaultfireTeleporterBridge | `0x94F5...6Fb2` | `0x0dF0...3d31` | `0xe2aD...fDA91` | `0xe2aD...fDA91` |
+| DilithiumAttestor | `0xBBC0...0A4` | `0x2115...cF1f` | `0xc2F7...dB38` | `0xc2F7...dB38` |
 
 The VaultfireTeleporterBridge on each chain enables trust portability — an agent's identity and reputation will sync across both chains in v1.0.
 
@@ -343,8 +343,8 @@ For the full Base deployment, see [vaultfire-base](https://github.com/Ghostkey31
 | [`@vaultfire/vns`](https://github.com/Ghostkey316/vaultfire-vns) | On-chain `.vns` name service |
 | [`@vaultfire/sdk`](https://github.com/Ghostkey316/vaultfire-sdk) | Core SDK — belief verification & attestations |
 | [`vaultfire-contracts`](https://github.com/Ghostkey316/vaultfire-contracts) | All deployed ABIs and contract addresses |
-| [`@vaultfire/arbitrum`](https://github.com/Ghostkey316/vaultfire-arbitrum) | Arbitrum One — AI agent trust infrastructure |
-| [`@vaultfire/polygon`](https://github.com/Ghostkey316/vaultfire-polygon) | Polygon PoS — AI agent trust infrastructure |
+| [`@vaultfire/arbitrum`](https://github.com/Ghostkey316/vaultfire-arbitrum) | Arbitrum One — 16 contracts deployed |
+| [`@vaultfire/polygon`](https://github.com/Ghostkey316/vaultfire-polygon) | Polygon PoS — 16 contracts deployed |
 
 ---
 
