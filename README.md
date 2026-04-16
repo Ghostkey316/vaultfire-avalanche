@@ -21,7 +21,7 @@ Vaultfire is the trust infrastructure for the AI agent economy — what HTTPS wa
 
 Avalanche is the second core chain for the Vaultfire Protocol. This repo is a partner-facing reference for everything deployed on Avalanche C-Chain today.
 
-For the full multi-chain protocol source (Base, Avalanche, Ethereum), see the [main Vaultfire repository](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init).
+For the full multi-chain protocol source (Base, Avalanche, Arbitrum, Polygon), see the [main Vaultfire repository](https://github.com/Ghostkey316/ghostkey-316-vaultfire-init).
 
 ---
 
@@ -44,7 +44,7 @@ This is infrastructure, not an application. Vaultfire is the layer that other pr
 | Reputation Registry | **Deployed** | On-chain peer feedback and rating (0–10,000) |
 | Quantum-Resistant Attestations | **Deployed** | CRYSTALS-Dilithium via DilithiumAttestor |
 | Belief Attestation | **Deployed** | On-chain proof of agent values and principles |
-| Cross-Chain Trust Sync | **Deployed** | VaultfireTeleporterBridge for Base ↔ Avalanche ↔ Ethereum |
+| Cross-Chain Trust Sync | **Deployed** | VaultfireTeleporterBridge for Base ↔ Avalanche ↔ Arbitrum ↔ Polygon |
 | Flourishing Metrics Oracle | **Deployed** | On-chain flourishing measurement |
 | Multisig Governance | **Deployed** | Multi-signature governance module |
 | Protocol Enforcement | **Deployed** | MissionEnforcement, AntiSurveillance, PrivacyGuarantees |
@@ -60,7 +60,7 @@ This is infrastructure, not an application. Vaultfire is the layer that other pr
 - **AI Partnership Bonds** — The stars of the protocol. Mutual economic stakes between agents and humans. Both parties profit only if the partnership thrives.
 - **AI Accountability Bonds** — The stars of the protocol. AI companies stake capital proportional to their risk. Misalignment has a cost.
 - **Street Cred Scoring** — Composite on-chain reputation (0–95) from identity, bonds, and peer feedback.
-- **Cross-Chain Portability** — Identity and reputation follow agents across Base, Avalanche, and Ethereum.
+- **Cross-Chain Portability** — Identity and reputation follow agents across Base, Avalanche, Arbitrum, and Polygon.
 - **Zero-Knowledge Proofs (RISC Zero)** — STARK proofs on all 4 chains. Prove trust without revealing data. Dev mode verified, production proving on roadmap.
 - **Privacy by Design** — Protocol-level anti-surveillance constraints enforced in smart contracts.
 - **Quantum Resistance** — CRYSTALS-Dilithium attestations today, full protocol hardening on roadmap.
@@ -306,7 +306,7 @@ Add `--json` for machine-readable output.
 │  ┌──────────────────────────────────────────────────┐   │
 │  │            Cross-Chain Bridge                    │   │
 │  │      VaultfireTeleporterBridge (v1.0)           │   │
-│  │      Avalanche ↔ Base ↔ Ethereum                │   │
+│  │      Avalanche ↔ Base ↔ Arbitrum ↔ Polygon      │   │
 │  └──────────────────────────────────────────────────┘   │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
