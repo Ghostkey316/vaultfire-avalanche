@@ -50,7 +50,7 @@ This is infrastructure, not an application. Vaultfire is the layer that other pr
 | Protocol Enforcement | **Deployed** | MissionEnforcement, AntiSurveillance, PrivacyGuarantees |
 | x402 Trust-Gated Payments | **Ready** | USDC settlement capability on Avalanche |
 
-> **Note:** The hub at [theloopbreaker.com](https://theloopbreaker.com) currently operates on Base mainnet. Cross-chain portability (Base ↔ Avalanche ↔ Ethereum) is a v1.0 milestone. All Avalanche contracts are deployed, verified, and ready for cross-chain activation.
+> **Note:** The hub at [theloopbreaker.com](https://theloopbreaker.com) currently operates on Base mainnet. Cross-chain portability (Base ↔ Avalanche ↔ Arbitrum ↔ Polygon) is a v1.0 milestone. All Avalanche contracts are deployed, verified, and ready for cross-chain activation.
 
 ---
 
@@ -61,14 +61,15 @@ This is infrastructure, not an application. Vaultfire is the layer that other pr
 - **AI Accountability Bonds** — The stars of the protocol. AI companies stake capital proportional to their risk. Misalignment has a cost.
 - **Street Cred Scoring** — Composite on-chain reputation (0–95) from identity, bonds, and peer feedback.
 - **Cross-Chain Portability** — Identity and reputation follow agents across Base, Avalanche, and Ethereum.
-- **Privacy by Design** — Zero-knowledge proofs and protocol-level anti-surveillance constraints.
+- **Zero-Knowledge Proofs (RISC Zero)** — STARK proofs on all 4 chains. Prove trust without revealing data. Dev mode verified, production proving on roadmap.
+- **Privacy by Design** — Protocol-level anti-surveillance constraints enforced in smart contracts.
 - **Quantum Resistance** — CRYSTALS-Dilithium attestations today, full protocol hardening on roadmap.
 
 ---
 
 ## Deployed Contracts — Avalanche C-Chain (Chain ID: 43114)
 
-15 contracts deployed and verified on Avalanche.
+16 contracts deployed and verified on Avalanche.
 
 | Contract | Address | Explorer |
 |----------|---------|----------|
@@ -87,8 +88,9 @@ This is infrastructure, not an application. Vaultfire is the layer that other pr
 | MissionEnforcement | [`0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB`](https://snowtrace.io/address/0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB) | [Snowtrace](https://snowtrace.io/address/0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB) |
 | AntiSurveillance | [`0x281814eF92062DA8049Fe5c4743c4Aef19a17380`](https://snowtrace.io/address/0x281814eF92062DA8049Fe5c4743c4Aef19a17380) | [Snowtrace](https://snowtrace.io/address/0x281814eF92062DA8049Fe5c4743c4Aef19a17380) |
 | PrivacyGuarantees | [`0xc09F0e06690332eD9b490E1040BdE642f11F3937`](https://snowtrace.io/address/0xc09F0e06690332eD9b490E1040BdE642f11F3937) | [Snowtrace](https://snowtrace.io/address/0xc09F0e06690332eD9b490E1040BdE642f11F3937) |
+| VaultfireTrustAttestation (ZK) | [`0xf92baef9523BC264144F80F9c31D5c5C017c6Da8`](https://snowtrace.io/address/0xf92baef9523BC264144F80F9c31D5c5C017c6Da8) | [Snowtrace](https://snowtrace.io/address/0xf92baef9523BC264144F80F9c31D5c5C017c6Da8) |
 
-> All 15 contracts verified on Snowtrace. VaultfireNameService (VNS) is currently deployed on Base only — Avalanche VNS deployment is planned for v1.0.
+> All 16 contracts verified on Snowtrace. VaultfireNameService (VNS) is currently deployed on Base only — Avalanche VNS deployment is planned for v1.0.
 
 ---
 
@@ -214,7 +216,7 @@ XMTP integration for encrypted agent-to-agent and human-to-agent messaging. Reac
 
 ### VaultfireTeleporterBridge
 
-Cross-chain trust portability bridge. Contract deployed on Avalanche. Full cross-chain reputation sync (Base ↔ Avalanche ↔ Ethereum) is coming in v1.0.
+Cross-chain trust portability bridge. Contract deployed on Avalanche. Full cross-chain reputation sync (Base ↔ Avalanche ↔ Arbitrum ↔ Polygon) is coming in v1.0.
 
 ### DilithiumAttestor — Quantum-Resistant Attestations
 
