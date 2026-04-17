@@ -109,8 +109,8 @@ class TestContractMap(unittest.TestCase):
         """Spot-check key addresses against the main Vaultfire repo README values."""
         expected = {
             "ERC8004IdentityRegistry": "0x57741F4116925341d8f7Eb3F381d98e07C73B4a3",
-            "AIPartnershipBondsV2":    "0xea6B504827a746d781f867441364C7A732AA4b07",
-            "AIAccountabilityBondsV2":  "0xaeFEa985E0C52f92F73606657B9dA60db2798af3",
+            "AIPartnershipBondsV2":    "0xDC8447c66fE9D9c7D54607A98346A15324b7985D",
+            "AIAccountabilityBondsV2":  "0x376831fB2457E34559891c32bEb61c442053C066",
             "MissionEnforcement":       "0xcf64D815F5424B7937aB226bC733Ed35ab6CaDcB",
             "DilithiumAttestor":        "0x211554bd46e3D4e064b51a31F61927ae9c7bCF1f",
             "VaultfireTeleporterBridge": "0x0dF0523aF5aF2Aef180dB052b669Bea97fee3d31",

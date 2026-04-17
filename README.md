@@ -74,8 +74,8 @@ This is infrastructure, not an application. Vaultfire is the layer that other pr
 | Contract | Address | Explorer |
 |----------|---------|----------|
 | ERC8004IdentityRegistry | [`0x57741F4116925341d8f7Eb3F381d98e07C73B4a3`](https://snowtrace.io/address/0x57741F4116925341d8f7Eb3F381d98e07C73B4a3) | [Snowtrace](https://snowtrace.io/address/0x57741F4116925341d8f7Eb3F381d98e07C73B4a3) |
-| AIPartnershipBondsV2 | [`0xea6B504827a746d781f867441364C7A732AA4b07`](https://snowtrace.io/address/0xea6B504827a746d781f867441364C7A732AA4b07) | [Snowtrace](https://snowtrace.io/address/0xea6B504827a746d781f867441364C7A732AA4b07) |
-| AIAccountabilityBondsV2 | [`0xaeFEa985E0C52f92F73606657B9dA60db2798af3`](https://snowtrace.io/address/0xaeFEa985E0C52f92F73606657B9dA60db2798af3) | [Snowtrace](https://snowtrace.io/address/0xaeFEa985E0C52f92F73606657B9dA60db2798af3) |
+| AIPartnershipBondsV2 | [`0xDC8447c66fE9D9c7D54607A98346A15324b7985D`](https://snowtrace.io/address/0xDC8447c66fE9D9c7D54607A98346A15324b7985D) | [Snowtrace](https://snowtrace.io/address/0xDC8447c66fE9D9c7D54607A98346A15324b7985D) |
+| AIAccountabilityBondsV2 | [`0x376831fB2457E34559891c32bEb61c442053C066`](https://snowtrace.io/address/0x376831fB2457E34559891c32bEb61c442053C066) | [Snowtrace](https://snowtrace.io/address/0x376831fB2457E34559891c32bEb61c442053C066) |
 | ERC8004ReputationRegistry | [`0x11C267C8A75B13A4D95357CEF6027c42F8e7bA24`](https://snowtrace.io/address/0x11C267C8A75B13A4D95357CEF6027c42F8e7bA24) | [Snowtrace](https://snowtrace.io/address/0x11C267C8A75B13A4D95357CEF6027c42F8e7bA24) |
 | ERC8004ValidationRegistry | [`0x0d41Eb399f52BD03fef7eCd5b165d51AA1fAd87b`](https://snowtrace.io/address/0x0d41Eb399f52BD03fef7eCd5b165d51AA1fAd87b) | [Snowtrace](https://snowtrace.io/address/0x0d41Eb399f52BD03fef7eCd5b165d51AA1fAd87b) |
 | VaultfireERC8004Adapter | [`0x6B7dC022edC41EBE41400319C6fDcCeab05Ea053`](https://snowtrace.io/address/0x6B7dC022edC41EBE41400319C6fDcCeab05Ea053) | [Snowtrace](https://snowtrace.io/address/0x6B7dC022edC41EBE41400319C6fDcCeab05Ea053) |
@@ -150,7 +150,7 @@ console.log('View on Snowtrace: https://snowtrace.io/tx/' + hash)
 ```javascript
 import { parseEther } from 'viem'
 
-const PARTNERSHIP_BONDS = '0xea6B504827a746d781f867441364C7A732AA4b07'
+const PARTNERSHIP_BONDS = '0xDC8447c66fE9D9c7D54607A98346A15324b7985D'
 
 const hash = await client.writeContract({
   address: PARTNERSHIP_BONDS,
@@ -216,7 +216,7 @@ XMTP integration for encrypted agent-to-agent and human-to-agent messaging. Reac
 
 ### VaultfireTeleporterBridge
 
-Cross-chain trust portability bridge. Contract deployed on Avalanche. Full cross-chain reputation sync (Base ↔ Avalanche ↔ Arbitrum ↔ Polygon) is coming in v1.0.
+Cross-chain trust portability bridge. Contract deployed on Avalanche. Full cross-chain reputation sync (Base ↔ Avalanche ↔ Arbitrum ↔ Polygon) is Live and operational.
 
 ### DilithiumAttestor — Quantum-Resistant Attestations
 

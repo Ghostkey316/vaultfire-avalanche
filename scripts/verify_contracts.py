@@ -40,8 +40,8 @@ RPC_TIMEOUT = 15  # seconds per request
 # Source: https://github.com/Ghostkey316/ghostkey-316-vaultfire-init (main repo README)
 CONTRACTS: dict[str, str] = {
     "ERC8004IdentityRegistry":           "0x57741F4116925341d8f7Eb3F381d98e07C73B4a3",
-    "AIPartnershipBondsV2":              "0xea6B504827a746d781f867441364C7A732AA4b07",
-    "AIAccountabilityBondsV2":           "0xaeFEa985E0C52f92F73606657B9dA60db2798af3",
+    "AIPartnershipBondsV2":              "0xDC8447c66fE9D9c7D54607A98346A15324b7985D",
+    "AIAccountabilityBondsV2":           "0x376831fB2457E34559891c32bEb61c442053C066",
     "ERC8004ReputationRegistry":         "0x11C267C8A75B13A4D95357CEF6027c42F8e7bA24",
     "ERC8004ValidationRegistry":         "0x0d41Eb399f52BD03fef7eCd5b165d51AA1fAd87b",
     "VaultfireERC8004Adapter":           "0x6B7dC022edC41EBE41400319C6fDcCeab05Ea053",
